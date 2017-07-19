@@ -1,0 +1,58 @@
+#include <bits/stdc++.h>
+
+
+#define f(i,j,n) for(int i=j; i<n; i++)
+#define fu(i,j,n) for(int i=j; i>n; i--)
+#define c(x, n) x n; cin>>n
+#define ft int t; scanf("%d", &t); for(int c=1; c<=t; c++)
+#define visited 1
+#define unvisited -1
+#define debug printf("\n<<CameHere<<\n")
+#define mem(x,y) memset(x, y, sizeof(x))
+#define nl printf("\n")
+#define space printf(" ");
+#define eps 1e-9
+#define inf 1<<28
+#define cases printf("Case %d:", c);
+#define all(v) (v).begin(), (v).end()
+#define pb push_back
+#define min3(a,b,c) min(min(a,b),c)
+#define min4(a,b,c,d) min(min(a,b),min(c,d))
+#define max3(a,b,c) max(max(a,b),c)
+#define max4(a,b,c,d) max(max(a,b),max(c,d))
+#define fin freopen("in.txt", "r", stdin)
+#define fout freopen("out.txt", "w", stdout)
+#define fast ios_base::sync_with_stdio(false); cin.tie(NULL)
+#define gamma 0.57721566490153286060651209008240243
+#define PI acos(-1)
+#define pi 2*acos(0)
+#define cos(a) cos(a*pi/180)
+#define sin(a) sin(a*pi/180)
+#define tan(a) tan(a*pi/180)
+#define cosi(a) acos(a)/(pi/180)
+#define sini(a) asin(a)/(pi/180)
+#define tani(a) atan(a)/(pi/180)
+#define tanii(a,b) atan2(a,b)/(pi/180)//tan(90) = Infinity or a/0
+#define dis(x1,y1,x2,y2) ((x1-x2)*(x1-x2))+((y1-y2)*(y1-y2))
+
+
+#define si(a) int a; scanf("%d", &a);
+#define sll(a) ll a; scanf("%lld", &a);
+#define sllu(a) unsigned ll a; scanf("%llu", &a);
+#define sd(a) double a; scanf("%lf", &a);
+
+using namespace std;
+
+typedef string st;
+typedef long long ll;
+typedef vector <int> vi;
+typedef pair <int, int> ii;
+typedef vector < pair <int, int> > vii;
+
+
+int main(){
+    ft{
+	
+    }
+return 0;
+}
