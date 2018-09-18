@@ -76,6 +76,7 @@
 #define sll(a) ll a; scanf("%lld", &a);
 #define sllu(a) unsigned ll a; scanf("%llu", &a);
 #define sd(a) double a; scanf("%lf", &a);
+#define sc(a) char a; scanf("%c", &a);
 
 //#define p printf
 /*Macro Ends here*/
