@@ -1,3 +1,14 @@
+/*
+****Mohammad Sheikh Ghazanfar****
+	Competitive Programmer,
+	Programmer, Chief ERP
+	Bachelor of  Engineering in Computer Science and Engineering ( 8th Semester ),
+	Department of Computer Science and Engineering,
+	International Islamic University Chittagong
+	Email : skghazanfar@gmail.com, msg@chieferp.com,
+	Call : 01917-051204 
+*/
+
  /*Header file starts here*/
 
 //#include <bits/stdc++.h>
@@ -186,7 +197,6 @@ template <typename F, typename S> ostream &operator << (ostream & os, const map<
 
 /*Debug Extension ends here*/
 
-
 int main(){
 
     #ifndef ONLINE_JUDGE
@@ -194,8 +204,8 @@ int main(){
     fout;
     #endif
 
-    ft{
+	ft{
+			
+	}
 
-    }
-return 0;
-}
+return 0;}
