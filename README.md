@@ -1,1 +1,1 @@
-# contest
+# Contest Template in C++
