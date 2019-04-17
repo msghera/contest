@@ -197,6 +197,14 @@ template <typename F, typename S> ostream &operator << (ostream & os, const map<
 
 /*Debug Extension ends here*/
 
+void precompute(){
+	
+}
+
+void clear(){
+	
+}
+
 int main(){
 
     #ifndef ONLINE_JUDGE
