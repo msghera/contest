@@ -2,7 +2,7 @@
 ****Mohammad Sheikh Ghazanfar****
 	Competitive Programmer,
 	Programmer, Chief ERP
-	Bachelor of  Engineering in Computer Science and Engineering ( 8th Semester ),
+	Bachelor of  Engineering in Computer Science and Engineering,
 	Department of Computer Science and Engineering,
 	International Islamic University Chittagong
 	Email : skghazanfar@gmail.com, msg@chieferp.com,
@@ -82,6 +82,7 @@
 #define t_angle(a,b,c) cosi((b*b+c*c-a*a)/(2*b*c))
 
 #define deb(x) cerr<< #x <<"="<<x<<endl;
+#define watch(args...) do { cerr << #args << " : " ;  print(args); } while(0); cerr<< endl ;
 
 #define si(a) int a; scanf("%d", &a);
 #define sll(a) ll a; scanf("%lld", &a);
@@ -195,6 +196,15 @@ template <typename F, typename S> ostream &operator << (ostream & os, const map<
     return os<<"]";
 }
 
+
+
+template< typename T > void print(const T& v) {    cerr << v << ' ' ;}
+
+template< typename T1, typename... T2 > void print( const T1& first, const T2&... rest ){ 
+    print(first); 
+    print(rest...) ;
+}
+
 /*Debug Extension ends here*/
 
 void precompute(){
@@ -206,14 +216,13 @@ void clear(){
 }
 
 int main(){
-
-    #ifndef ONLINE_JUDGE
+	#ifndef ONLINE_JUDGE
     fin;
     fout;
     #endif
-
+    
 	ft{
-			
+		
 	}
 
 return 0;}
