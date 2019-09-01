@@ -195,8 +195,9 @@ void clear(){
 
 int main(){
 
+	precompute();
+		
 	ft{
-		precompute();
 		clear();		
 		
 	}
