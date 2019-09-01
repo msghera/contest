@@ -43,6 +43,8 @@
 #define f(i,j,n) for(int i=j; i<n; i++)
 #define fu(i,j,n) for(int i=j; i>n; i--)
 #define c(x, n) x n; cin>>n
+#define in(name, n) for(int ___i=0;___i<n;___i++) { cin >> name[___i];}
+#define vin(type, name, n) for(int ___i=0;___i<n;___i++) { type x; cin >> x; name.push_back(x); }
 #define ft int t; scanf("%d", &t); for(int c=1; c<=t; c++)
 #define w(n) while(n--)
 #define visited 1
@@ -134,14 +136,6 @@ ll inv(ll a, ll m){
     return xp(a, m-2, m);
 }
 
-
-bool pali(string temp, int i, int j)
-{
-    if(i>=j) return true;
-    if(temp[i]==temp[j]) return pali(temp, i+1, j-1);
-    return false;
-}
-
 /*Important functions ends here*/
 
 /*Debug Extension starts here*/
@@ -203,8 +197,7 @@ int main(){
 
 	ft{
 		precompute();
-		clear();
-		
+		clear();		
 		
 	}
 
