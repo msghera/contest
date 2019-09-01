@@ -199,7 +199,6 @@ int main(){
 		
 	ft{
 		clear();		
-		
 	}
 
 return 0;}
