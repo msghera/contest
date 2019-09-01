@@ -1,12 +1,12 @@
 /*
 ****Mohammad Sheikh Ghazanfar****
 	Competitive Programmer,
-	Programmer, Chief ERP
+	Machine Learning Team, Nascenia,
+	Former Programmer, Chief ERP,
 	Bachelor of  Engineering in Computer Science and Engineering,
 	Department of Computer Science and Engineering,
 	International Islamic University Chittagong
-	Email : skghazanfar@gmail.com, msg@chieferp.com,
-	Call : 01917-051204 
+	Email : skghazanfar@gmail.com
 */
 
  /*Header file starts here*/
@@ -57,6 +57,7 @@
 #define cases printf("Case %d:", c);
 #define all(v) (v).begin(), (v).end()
 #define pb push_back
+#define mii make_pair
 #define min3(a,b,c) min(min(a,b),c)
 #define min4(a,b,c,d) min(min(a,b),min(c,d))
 #define max3(a,b,c) max(max(a,b),c)
@@ -82,7 +83,6 @@
 #define t_angle(a,b,c) cosi((b*b+c*c-a*a)/(2*b*c))
 
 #define deb(x) cerr<< #x <<"="<<x<<endl;
-#define watch(args...) do { cerr << #args << " : " ;  print(args); } while(0); cerr<< endl ;
 
 #define si(a) int a; scanf("%d", &a);
 #define sll(a) ll a; scanf("%lld", &a);
@@ -114,13 +114,6 @@ template <class T> T abs (T a, T b=0)
 {
     if(b==0) return (a<0) ? -a : a;
     return (a>b) ? (a-b) : (b-a);
-}
-
-template <class T> inline T gcd(T a, T b)
-{
-    if(a<0) return gcd(-a, b);
-    if(b<0) return gcd(a,-b);
-    return (b==0) ? a : gcd(b, a%b);
 }
 
 ll xp(ll b, ll n, ll m) {
@@ -196,15 +189,6 @@ template <typename F, typename S> ostream &operator << (ostream & os, const map<
     return os<<"]";
 }
 
-
-
-template< typename T > void print(const T& v) {    cerr << v << ' ' ;}
-
-template< typename T1, typename... T2 > void print( const T1& first, const T2&... rest ){ 
-    print(first); 
-    print(rest...) ;
-}
-
 /*Debug Extension ends here*/
 
 void precompute(){
@@ -216,12 +200,11 @@ void clear(){
 }
 
 int main(){
-	#ifndef ONLINE_JUDGE
-    fin;
-    fout;
-    #endif
-    
+
 	ft{
+		precompute();
+		clear();
+		
 		
 	}
 
