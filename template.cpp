@@ -67,6 +67,7 @@
 #define fin freopen("in.txt", "r", stdin)
 #define fout freopen("out.txt", "w", stdout)
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL)
+#define MOD 1eE9+7
 #define gamma 0.57721566490153286060651209008240243
 #define PI acos(-1)
 #define pi 2*acos(0)
@@ -186,19 +187,19 @@ template <typename F, typename S> ostream &operator << (ostream & os, const map<
 /*Debug Extension ends here*/
 
 void precompute(){
-	
+
 }
 
 void clear(){
-	
+
 }
 
 int main(){
 
 	precompute();
-		
+
 	ft{
-		clear();		
+		clear();
 	}
 
 return 0;}
